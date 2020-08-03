@@ -1,0 +1,10 @@
+/* DECORAZIONE TESTO */
+body h1{
+  color: lightblue;
+  background-color: inherit;
+}
+
+h1{
+  font-weight: bold;
+  text-transform: capitalize;
+}

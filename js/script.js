@@ -3,14 +3,22 @@ alert("Questo sito ti rubera' tutti i tuoi dati. Grazie di aver preso visione, o
 
 // INSERIMENTO NOME UTENTE
 var nome = prompt("Inserisci il tuo nome :");
-console.log("nome");
+console.log(nome);
+
 // INSERIMENTO COGNOME
 var cognome = prompt("Inserisci il tuo cognome :");
-console.log("cognome");
+console.log(cognome);
+
 // INSERIMENTO COLORE PREFERITO
 var colore = prompt("Inserisci il tuo colore preferito :");
-console.log("colore");
+console.log(colore);
+
 // INSERIMENTO ANNO DI NASCITA
-var anno = parInt(prompt("Inserisci il tuo anno :"));
-console.log("anno");
+var anno = parseInt(prompt("Inserisci l'anno di nascita :"));
+var annoCorrente = 2020;
+var eta = annoCorrente - anno;
+console.log(anno);
+
 // GENERAZIONE PW SOLA
+var passwordGen = nome + cognome + colore + eta;
+document.getElementById("password").innerHTML = passwordGen;

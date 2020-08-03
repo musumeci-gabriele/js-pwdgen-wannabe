@@ -1,10 +1,15 @@
 /* DECORAZIONE TESTO */
 body h1{
-  color: lightblue;
+  color: blue;
   background-color: inherit;
 }
 
 h1{
   font-weight: bold;
   text-transform: capitalize;
+}
+
+#password{
+  color: red;
+  background-color: inherit;
 }

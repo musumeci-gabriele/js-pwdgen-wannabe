@@ -3,15 +3,14 @@ alert("Questo sito ti rubera' tutti i tuoi dati. Grazie di aver preso visione, o
 
 // INSERIMENTO NOME UTENTE
 var nome = prompt("Inserisci il tuo nome :");
-
-
+console.log("nome");
 // INSERIMENTO COGNOME
-var nome = prompt("Inserisci il tuo cognome :");
-
+var cognome = prompt("Inserisci il tuo cognome :");
+console.log("cognome");
 // INSERIMENTO COLORE PREFERITO
-var nome = prompt("Inserisci il tuo colore preferito :");
-
+var colore = prompt("Inserisci il tuo colore preferito :");
+console.log("colore");
 // INSERIMENTO ANNO DI NASCITA
-var nome = parInt(prompt("Inserisci il tuo anno :"));
-
+var anno = parInt(prompt("Inserisci il tuo anno :"));
+console.log("anno");
 // GENERAZIONE PW SOLA
